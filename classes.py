@@ -20,7 +20,7 @@ class City:
         else:
             print("You don't have enough money to buy this city.")
 
-    def sell(self, buyer, seller, selling_price):
+    def trade(self, buyer, seller, selling_price):
         if seller.money >= selling_price:
             seller.money += selling_price
             self.owner = buyer
@@ -39,7 +39,7 @@ class City:
             player.money -= unmortgaging_amount
         else:
             print("You don't have enough money to unmortgage this city.")
-            
+
     def construct_house(self, player):
         if self.house_cost <= player.money:
             player.money -= self.house_cost
