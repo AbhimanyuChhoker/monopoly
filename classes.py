@@ -1,6 +1,6 @@
 class City:
     def __init__(self, name, price, base_rent, owner, rent_multiplier, color_group, house_cost,
-                 houses, mortgage_amount, mortgaged, type):
+                 houses, mortgage_amount, mortgaged):
         self.name = name
         self.price = price
         self.base_rent = base_rent
