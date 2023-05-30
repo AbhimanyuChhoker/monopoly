@@ -1,3 +1,5 @@
+# Adds info about cities to json file by taking user info from user input
+
 from classes import City
 import json
 

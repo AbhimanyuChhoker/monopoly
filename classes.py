@@ -1,3 +1,5 @@
+# Contains classes of cities, players, railway stations and utilities.
+
 class City:
     def __init__(self, name, price, base_rent, owner, color_group, house_cost,
                  houses, mortgage_amount, mortgaged, one_house_rent, two_house_rent, three_house_rent,
