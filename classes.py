@@ -58,4 +58,11 @@ class Player:
         self.cities = cities
         self.current_position = current_position
         self.total_wealth = total_wealth
-        
+    
+    # TODO: Add functions for players
+
+class RailwayStation:
+    # TODO: Add functions for Railway stations
+
+class Utility:
+    # TODO: Add functions for utilities
