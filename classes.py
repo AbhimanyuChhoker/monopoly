@@ -1,17 +1,21 @@
 class City:
-    def __init__(self, name, price, base_rent, owner, rent_multiplier, color_group, house_cost,
-                 houses, mortgage_amount, mortgaged):
+    def __init__(self, name, price, base_rent, owner, color_group, house_cost,
+                 houses, mortgage_amount, mortgaged, one_house_rent, two_house_rent, three_house_rent,
+                 four_house_rent, five_house_rent):
         self.name = name
         self.price = price
         self.base_rent = base_rent
         self.owner = owner
-        self.rent_multiplier = rent_multiplier
         self.color_group = color_group
         self.house_cost = house_cost
         self.houses = houses
         self.mortgage_amount = mortgage_amount
         self.mortgaged = mortgaged
-        self.type = type
+        self.one_house_rent = one_house_rent
+        self.two_house_rent = two_house_rent
+        self.three_house_rent = three_house_rent
+        self.four_house_rent = four_house_rent
+        self.five_house_rent = five_house_rent
         
     def buy(self, player):
         if player.money >= self.price:
